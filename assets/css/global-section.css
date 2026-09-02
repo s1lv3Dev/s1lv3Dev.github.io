@@ -1,0 +1,36 @@
+section {
+    padding: 5rem 1.5rem 5rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    /*border-bottom: 1px solid rgba(66, 75, 94, 0.25);*/
+}
+
+.titles-global {
+    margin-bottom: 1.4rem;
+}
+
+/*.titles-global h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+}*/
+
+.title-section {
+    display: flex;
+    align-items: center;
+    gap: 0.50rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.titles-global p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.titles-global h2 i {
+    font-size: 1.3rem;
+    background: linear-gradient(135deg, #f59e0b 10%, #f97316 90%);
+    background-clip: text;
+    color: transparent;
+}

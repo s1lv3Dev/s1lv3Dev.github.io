@@ -1,0 +1,9 @@
+:root {
+  --background-color: #000613;
+  --text-color: #ffffff;
+
+  --font-onest: 'Onest', sans-serif;
+  --font-geist: 'Geist', sans-serif;
+
+  --rounded-full: 9999px;
+}

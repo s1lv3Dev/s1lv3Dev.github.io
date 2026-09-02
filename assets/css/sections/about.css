@@ -1,0 +1,170 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    color: #ffffffcc;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+}
+
+.about-text p strong {
+    color: white;
+
+}
+
+.about-card {
+    width: 320px;
+    height: 436px;
+    background: #000b218d;
+    border: 1.4px solid #424b5ec1;
+    border-radius: 24px;
+    padding: 2.2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+}
+
+.about-img-wrapper {
+    width: 140px;
+    height: 140px;
+    border-radius: var(--rounded-full);
+    overflow: hidden;
+    border: 2px solid #424b5ec1;
+    box-shadow: 0 0 20px rgba(235, 146, 43, 0.15);
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-name {
+    color: #ffffffcc;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: -0.4rem 0 -0.8rem 0;
+}
+
+.status-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.25rem 0.7rem;
+    border-radius: var(--rounded-full);
+    border: 1px solid #424b5ec1;
+}
+
+.status-dot {
+    width: 5px;
+    height: 5px;
+}
+
+.about-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 100%;
+    padding: 0.8rem 0;
+    border-top: 1px solid #424b5ec1;
+    border-bottom: 1px solid #424b5ec1;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.info-item i {
+    color: #eb922b;
+    font-size: 0.9rem;
+}
+
+/*.btn-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.7rem 0;
+    background: #eb922b;
+    border: 2px solid #eb922b;
+    color: #ffffff;
+    border-radius: var(--rounded-full);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.7s ease, box-shadow 0.7s ease;
+}
+
+.btn-cv:hover {
+    background: transparent;
+    color: #eb922b;
+    box-shadow: 0 0 15px rgba(235, 146, 43, 0.4);
+}*/
+
+.btn-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.7rem 0;
+    border-radius: var(--rounded-full);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+    background-color: #000b218d;
+    color: #fff;
+    border: 2px solid #424b5ec1;
+}
+
+.btn-cv:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .about-badges {
+        width: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-container {
+        flex-direction: column-reverse; /* Pone la tarjeta arriba y el texto abajo */
+        gap: 2rem;
+    }
+
+    .about-card {
+        width: 100%;
+        max-width: 340px;
+    }
+}

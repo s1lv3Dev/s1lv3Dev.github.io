@@ -1,0 +1,21 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos y configuraciones del editor de código (VS Code / JetBrains)
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Archivos de registros y temporales
+*.log
+*.tmp
+.cache/
+
+# Otros
+assets/js/skills.js
+assets/docs
+
+#<a href="docs/CV-Silvestre-AH.pdf" class="btn-cv" download=""><i class="fa-solid fa-file-arrow-down"></i> Descargar CV</a>

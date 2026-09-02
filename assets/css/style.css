@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem; /* Ajusta el punto de parada para que la barra flotante no solape el título */
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave entre temas */
+    background-color: var(--background-color);
+    font-family: var(--font-onest);
+    color: var(--text-color);
+}
+
+body.light-theme {
+    --background-color: #f4f5f7;
+    --text-color: #1a1d24;
+}
+
+/*  */
+body.light-theme .about-text p {
+    color: #222427;
+}
+
+body.light-theme .about-text strong {
+    color: #222427;
+}
+
+body.light-theme .about-card {
+    background: rgba(255, 255, 255, 0.85);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .about-name {
+    color: #222427;
+}
+
+body.light-theme .info-item {
+    color: #222427;
+}
+
+body.light-theme .status-pill {
+    color: #222427;
+}
+
+body.light-theme .skill-text p {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+body.light-theme .project-tag {
+    color: #222427;
+    background: rgba(255, 255, 255, 0.85);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para los botones, modo oscuro y claro */
+
+.btn-primary {
+    /*background: linear-gradient(135deg, #f59f0b 10%, #f97416 90%);*/
+    background-color: #000b218d;
+    color: #fff;
+    border: 2px solid #424b5ec1;
+}
+
+.btn-primary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.light-theme .btn-primary {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(50, 54, 63, 0.925);
+    border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+    background-color: #000b218d;
+    color: #fff;
+    border: 2px solid #424b5ec1;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.light-theme .btn-secondary {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(50, 54, 63, 0.925);
+    border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .footer-link {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+body.light-theme .footer-link:hover {
+    color: #eb922b;
+}
+
+body.light-theme .btn-cv {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(50, 54, 63, 0.925);
+    border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: var(--rounded-full);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn .fa-github {
+    font-size: 1.1rem;
+}
+
+.btn .fa-arrow-up-right-from-square {
+    font-size: 0.85rem;
+    position: relative;
+    top: 1px;
+}

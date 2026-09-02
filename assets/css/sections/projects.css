@@ -1,0 +1,95 @@
+.project-card {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    background: transparent;
+}
+
+.project-img-container {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1.4px solid #424b5ec1;
+    background: #000b218d;
+    transition: background-color 0.5s ease, color 0.7s ease, box-shadow 0.7s ease;
+}
+
+.project-img-container:hover {
+    box-shadow: 0 0 70px #f9741649;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.01);
+}
+
+.project-content .project-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.project-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: var(--rounded-full);
+    background: rgba(66, 75, 94, 0.3);
+    color: #cbd5e1;
+}
+
+.project-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+}
+
+.project-actions {
+    display: flex;
+    gap: 0.75rem;
+}
+
+/*.project-btn {
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: var(--rounded-full);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1.4px solid #424b5ec1;
+    color: #fff;
+    background: #000b218d;
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.project-btn:hover {
+    background: rgba(66, 75, 94, 0.5);
+    border-color: #eb922b;
+}*/
+
+@media (max-width: 768px) {
+    .project-card {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+/*Sitio web personal desarrollado desde cero con modo oscuro/claro y componentes interactivos fluidos, diseño minimalista y moderno con efectos glass/blur.*/

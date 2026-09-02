@@ -1,0 +1,40 @@
+.pila-footer {
+    max-width: 900px;
+    margin: 6rem auto 3rem auto;
+    padding: 2rem 1.5rem;
+    border-top: 1px solid rgba(66, 75, 94, 0.3);
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.footer-link {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #eb922b;
+}
+
+.footer-dot {
+    color: rgba(66, 75, 94, 0.6);
+    font-size: 0.75rem;
+}

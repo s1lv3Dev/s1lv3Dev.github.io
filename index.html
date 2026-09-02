@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio 2026 | Silvestre</title>
+    <!-- 1. Conexiones CSS -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/global-section.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/sections/hero.css">
+    <link rel="stylesheet" href="assets/css/sections/projects.css">
+    <link rel="stylesheet" href="assets/css/sections/skills.css">
+    <link rel="stylesheet" href="assets/css/sections/about.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- 2. Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Onest:wght@100..900&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+    <!-- 3. JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <!-- 4. Otros -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="pila-navbar">
+            <a href="#proyectos" class="nav-item active">Proyectos</a>
+            <a href="#habilidades" class="nav-item">Habilidades</a>
+            <a href="#sobre-mí" class="nav-item">Sobre mí</a>
+            <a href="mailto:silvestre.anhe@gmail.com" class="nav-item">Contacto</a>
+            <span class="divider"></span>
+            <button class="theme-toggle" id="theme-toggle">
+                <img src="assets/img/moon.svg" alt="Modo Oscuro" class="moon-icon">
+                <img src="assets/img/sun.svg" alt="Modo Claro" class="sun-icon">
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-avatar">
+                <img src="assets/img/FotoSobreMi.png" alt="img-silvestre">
+            </div>
+            <div class="hero-content">
+                <span class="status-badge">
+                    <span class="status-dot"></span> Disponibilidad inmediata
+                </span>
+                <h1>Hola, soy <span class="span1">Silvestre</span></h1>
+                <p class="subtitle">Técnico en Automoción & Apasionado de la Tecnología</p>
+                <p class="description">
+                    Combinando la lógica técnica de la automoción con el desarrollo web. <strong>Actualmente estudiando un CFGS de Automoción</strong> con background técnico en informática.
+                </p>
+                <div class="hero-buttons">
+                    <a href="mailto:silvestre.anhe@gmail.com" class="btn btn-primary">
+                        <i class="fa-solid fa-envelope"></i>Contáctame
+                    </a>
+                    <a href="https://www.linkedin.com/in/silvestre-antonio-hernández-3224932b6 " target="_blank" rel="noopener" class="btn btn-secondary">
+                        <i class="fa-brands fa-linkedin-in"></i>LinkedIn
+                    </a>
+                    <a href="https://github.com/s1lv3Dev" target="_blank" rel="noopener" class="btn btn-secondary">
+                        <i class="fa-brands fa-github"></i>GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Proyectos -->
+        <section id="proyectos" class="projects-section">
+            <div class="titles-global">
+                <h2 class="title-section"><i class="fa-solid fa-code"></i> Proyectos Realizados</h2>
+                <p class="subtitle-section">Proyectos destacados en desarrollo web e informática.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/img/project-capture.png" alt="Vista previa del proyecto" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"> Portfolio Personal — Diseño Web Minimalista</h3>
+                        <div class="project-tags">
+                            <span class="project-tag tech html"><!--<i class="fa-brands fa-html5">--></i>HTML</span>
+                            <span class="project-tag tech css"><!--<i class="fa-brands fa-css3">--></i>CSS</span>
+                            <span class="project-tag tech js"><!--<i class="fa-brands fa-square-js">--></i>JavaScript</span>
+                        </div>
+                        <p class="project-description">
+                            Sitio web interactivo maquetado desde cero con HTML5 y CSS3. Enfocado en una arquitectura limpia, diseño adaptable, interfaz en modo oscuro y efectos visuales modernos con glassmorphism.
+                        </p>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-secondary"><i class="fa-brands fa-github"></i>Code</a>
+                            <a href="#" class="btn btn-secondary"><i class="fa-solid fa-arrow-up-right-from-square"></i>Preview</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Sección Habilidades -->
+        <section id="habilidades" class="habilidades-section">
+        
+            <div class="titles-global">
+                <h2 class="title-section"><i class="fa-solid fa-screwdriver-wrench"></i></i> Habilidades Técnicas</h2>
+                <p class="section-subtitle">Áreas de conocimiento y competencias clave.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-column">
+                    <div class="column-header">
+                        <span class="column-icon"><i class="fa-solid fa-car"></i></i></span>
+                        <h3>Automoción & Electromecánica</h3>
+                    </div>
+                    <ul class="editorial-list">
+                        <li>
+                            <span class="skill-name">Sistemas del Vehículo</span>
+                            <span class="skill-desc">Transmisión, embragues y electromecánica general.</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Diagnóstico Técnico</span>
+                            <span class="skill-desc">Localización de averías y análisis de componentes.</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Hardware & IT Aplicado</span>
+                            <span class="skill-desc">Sistemas embebidos y electrónica aplicada al motor.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-column">
+                    <div class="column-header">
+                        <span class="column-icon"><i class="fa-solid fa-laptop-code"></i></span>
+                        <h3>Informática & Desarrollo</h3>
+                    </div>
+                    <ul class="editorial-list">
+                        <li>
+                            <span class="skill-name">Frontend Web</span>
+                            <span class="skill-desc">HTML5, CSS3, maquetación responsive y bases de JavaScript.</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Programación y Lógica</span>
+                            <span class="skill-desc">Bases de Java, estructuras de control y lógica algorítmica.</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Herramientas & Entornos</span>
+                            <span class="skill-desc">Git, GitHub, control de versiones y entornos de desarrollo.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mí" class="sobre-mí-section">
+            <div class="titles-global">
+                <h2 class="title-section"><i class="fa-solid fa-circle-user"></i> Sobre mí</h2>
+                <p class="subtitle-section">Conoce un poco más sobre mí y descarga mi CV.</p>
+            </div>
+
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        ¡Hola! Soy <strong>Silvestre</strong>. Desde siempre he tenido una gran fascinación por la tecnología y por entender cómo funcionan las cosas desde dentro, ya sea el software de una aplicación o la ingeniería de un vehículo.
+                    </p>
+                    <p>
+                        Cuento con formación previa e interés en <strong>desarrollo web e informática</strong>. Me enfoco especialmente en el área <strong>Frontend</strong>, donde disfruto maquetando y diseñando interfaces con HTML y CSS, mientras sigo reforzando mis conocimientos en JavaScript y Java para seguir evolucionando.
+                    </p>
+                    <p>
+                        Actualmente, me encuentro ampliando mis horizontes cursando un <strong>Ciclo Formativo de Grado Superior en Automoción</strong>. Mi objetivo es fusionar la lógica de la programación con la electromecánica y la diagnosis del automóvil, aportando soluciones innovadoras en un sector cada vez más digitalizado.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-img-wrapper">
+                        <img src="assets/img/FotoSobreMi.png" alt="img-silvestre" class="about-img">
+                    </div>
+                    <h3 class="about-name">Silvestre A.H.</h3>
+                    <span class="status-pill"><span class="status-dot"></span> En formación activa</span>
+
+                    <div class="about-info-list">
+                        <span class="info-item"><i class="fa-solid fa-graduation-cap"></i> CFGS Automoción</span>
+                        <span class="info-item"><i class="fa-solid fa-code"></i> Web & IT Background</span>
+                    </div>
+                    <!--<a href="docs/CV-Silvestre-AH.pdf" class="btn-cv" download="">
+                        <i class="fa-solid fa-file-arrow-down"></i> Descargar CV
+                    </a>-->
+                    <a href="https://www.linkedin.com/in/silvestre-antonio-hernández-3224932b6 " target="_blank" rel="noopener" class="btn btn-secondary">
+                        <i class="fa-brands fa-linkedin-in"></i>LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pila-footer" id="contacto">
+        <div class="footer-content">
+            <p class="footer-text">Diseñado y desarrollado por <strong>Silvestre</strong> &bull; 2026</p>
+            <div class="footer-links">
+                <a href="https://github.com/s1lv3Dev" target="blank" class="footer-link">GitHub</a>
+                <span class="footer-dot">•</span>
+                <a href="https://www.linkedin.com/in/silvestre-antonio-hernández-3224932b6 " target="blank" class="footer-link">LinkedIn</a>
+                <span class="footer-dot">•</span>
+                <a href="mailto:silvestre.anhe@gmail.com" class="footer-link">Contacto</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
