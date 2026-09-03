@@ -7,10 +7,22 @@
 .column-header {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.85rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.75rem;
     border-bottom: 1px solid rgba(66, 75, 94, 0.25);
+}
+
+.column-header .skills-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.20rem;
+}
+
+.skills-title p {
+    font-size: 0.90rem;
+    font-weight: 300;
+    color: #ffffffb3;
 }
 
 .column-icon {
@@ -19,7 +31,7 @@
 
 .column-header h3 {
     font-size: 1.15rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .editorial-list {
@@ -28,7 +40,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.8rem;
 }
 
 .editorial-list li {
@@ -55,4 +67,8 @@
         grid-template-columns: 1fr;
         gap: 2.5rem;
     }
+}
+
+body.light-theme .skills-title p {
+    color: #393b3f;
 }

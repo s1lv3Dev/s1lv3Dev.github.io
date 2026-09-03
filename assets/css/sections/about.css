@@ -58,13 +58,13 @@
 }
 
 .status-pill {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.7rem;
     font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.7);
     background: rgba(255, 255, 255, 0.04);
-    padding: 0.25rem 0.7rem;
+    padding: 0.4rem 0.8rem;
     border-radius: var(--rounded-full);
     border: 1px solid #424b5ec1;
 }
@@ -147,7 +147,7 @@
 @media (max-width: 768px) {
     .about-container {
         flex-direction: column;
-        text-align: center;
+        text-align: start;
         padding: 1.5rem;
         gap: 1.5rem;
     }
@@ -159,8 +159,12 @@
 
 @media (max-width: 900px) {
     .about-container {
-        flex-direction: column-reverse; /* Pone la tarjeta arriba y el texto abajo */
+        /*flex-direction: column-reverse;*/ 
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
         gap: 2rem;
+        padding: 0;
     }
 
     .about-card {
